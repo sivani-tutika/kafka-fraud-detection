@@ -4,7 +4,7 @@ import json
 import time
 import os
 
-file_path = os.path.join("data", "transaction_data.csv")
+file_path = os.path.join("data", "transactions.csv")
 transactions_df = pd.read_csv(file_path)
 transactions_df = transactions_df.sample(500)
 
