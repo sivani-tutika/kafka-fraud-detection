@@ -2,6 +2,8 @@
 
 This project simulates real-time transaction streaming using Apache Kafka. A Python Kafka Producer reads sample transactions and sends them to a Kafka topic for fraud analysis.
 
+<video src="demo/kafka-fraud-detection-demo1.mp4" controls width="600"></video>
+
 ## 📦 Features
 
 - Stream transaction data from a CSV file  
